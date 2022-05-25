@@ -14,7 +14,7 @@
     "postbuild:lib": "copyfiles README.md dist/ngx-bootstrap-form-builder",
     "test:app": "ng test demo --no-watch --no-progress --browsers=ChromeHeadlessCI",
     "test:lib": "ng test ngx-bootstrap-form-builder --no-watch --no-progress --browsers=ChromeHeadlessCI",
-    "test:ci": "npm run test:lib && npm run test:app",
+    "test:ci": "npm run test:app && npm run test:lib",
     "semantic-release": "semantic-release"
   },
   "private": true,
