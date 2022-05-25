@@ -8,7 +8,7 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "prepare": "husky install",
-    "build:app": "ng build ngx-bootstrap-form-builder --configuration=production --base-href=/ngx-bootstrap-form-builder/",
+    "build:app": "ng build demo --configuration=production --base-href=/ngx-bootstrap-form-builder/",
     "build:lib": "ng build ngx-bootstrap-form-builder --configuration=production",
     "build:ci": "npm run build:lib && npm run build:app",
     "postbuild:lib": "copyfiles README.md dist/ngx-bootstrap-form-builder",
